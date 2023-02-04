@@ -1,0 +1,43 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite & npm run mock",
+    "build": "tsc && vite build",
+    "mock": "node ./mock/index.js",
+    "preview": "vite preview",
+    "narp-push": "narp push",
+    "narp-pull": "narp pull",
+    "installdriver": "selenium-standalone install --drivers.firefox.baseURL=http://npm.taobao.org/mirrors/geckodriver --baseURL=http://npm.taobao.org/mirrors/selenium --drivers.chrome.baseURL=http://npm.taobao.org/mirrors/chromedriver --drivers.ie.baseURL=http://npm.taobao.org/mirrors/selenium",
+    "server": "selenium-standalone start",
+    "test": "mocha \"!(node_modules)/**/*.spec.js\" --reporter macaca-reporter --reporter-options reportJSONFilename=index,processAlwaysExitWithZero=true --bail",
+    "singletest": "mocha --reporter macaca-reporter --reporter-options reportJSONFilename=index,processAlwaysExitWithZero=true --bail",
+    "paralleltest": "macaca-mocha-parallel-tests \"!(node_modules)/**/*.spec.js\" --reporter macaca-reporter --reporter-options reportJSONFilename=index,processAlwaysExitWithZero=true --max-parallel 5 --bail",
+    "moduletest": "macaca-mocha-parallel-tests --reporter macaca-reporter --reporter-options reportJSONFilename=index,processAlwaysExitWithZero=true --max-parallel 5 --bail"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "chai": "3.5.0",
+    "jquery": "3.x",
+    "jwebdriver": "2.3.4",
+    "macaca-mocha-parallel-tests": "2.x",
+    "mocha": "5",
+    "node-gettext": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "resemblejs-node": "1.0.0",
+    "selenium-standalone": "6.x.x",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "macaca-datahub": "^4.2.1",
+    "macaca-reporter": "^1.9.15",
+    "narp": "^3.2.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

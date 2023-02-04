@@ -1,0 +1,134 @@
+{
+  "zh-CN": {
+    "charset": "utf-8",
+    "headers": {
+      "mime-version": "1.0",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-transfer-encoding": "8bit",
+      "x-generator": "POEditor.com",
+      "project-id-version": "test",
+      "language": "zh-CN"
+    },
+    "translations": {
+      "": {
+        "": {
+          "msgid": "",
+          "msgstr": [
+            "MIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: POEditor.com\nProject-Id-Version: test\nLanguage: zh-CN\n"
+          ]
+        },
+        "hello world": {
+          "msgid": "hello world",
+          "comments": {
+            "reference": "src/App.tsx:15"
+          },
+          "msgstr": [
+            "再见"
+          ]
+        },
+        "hello world 2": {
+          "msgid": "hello world 2",
+          "comments": {
+            "reference": "src/App.tsx:16"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "enter": {
+          "msgid": "enter",
+          "comments": {
+            "reference": "src/App.tsx:17"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "test": {
+          "msgid": "test",
+          "comments": {
+            "reference": "src/App.tsx:18"
+          },
+          "msgstr": [
+            "测试"
+          ]
+        },
+        "test2": {
+          "msgid": "test2",
+          "comments": {
+            "reference": "src/App.tsx:19"
+          },
+          "msgstr": [
+            "测试3"
+          ]
+        }
+      }
+    }
+  },
+  "en": {
+    "charset": "utf-8",
+    "headers": {
+      "mime-version": "1.0",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-transfer-encoding": "8bit",
+      "x-generator": "POEditor.com",
+      "project-id-version": "test",
+      "language": "en"
+    },
+    "translations": {
+      "": {
+        "": {
+          "msgid": "",
+          "msgstr": [
+            "MIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: POEditor.com\nProject-Id-Version: test\nLanguage: en\n"
+          ]
+        },
+        "hello world": {
+          "msgid": "hello world",
+          "comments": {
+            "reference": "src/App.tsx:15"
+          },
+          "msgstr": [
+            "hello world"
+          ]
+        },
+        "hello world 2": {
+          "msgid": "hello world 2",
+          "comments": {
+            "reference": "src/App.tsx:16"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "enter": {
+          "msgid": "enter",
+          "comments": {
+            "reference": "src/App.tsx:17"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "test": {
+          "msgid": "test",
+          "comments": {
+            "reference": "src/App.tsx:18"
+          },
+          "msgstr": [
+            ""
+          ]
+        },
+        "test2": {
+          "msgid": "test2",
+          "comments": {
+            "reference": "src/App.tsx:19"
+          },
+          "msgstr": [
+            ""
+          ]
+        }
+      }
+    }
+  }
+}

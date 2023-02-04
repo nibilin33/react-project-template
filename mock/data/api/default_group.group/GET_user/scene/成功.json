@@ -1,0 +1,14 @@
+{
+  "sceneName": "成功",
+  "data": {
+    "success": 1
+  },
+  "interfaceUniqId": "41d53321-5820-4551-8e8e-d690fdd22887",
+  "contextConfig": {
+    "responseDelay": 0,
+    "responseStatus": 200,
+    "responseHeaders": {}
+  },
+  "uniqId": "0e02341b-86c8-471f-987a-800911fbf6af",
+  "format": "json"
+}

@@ -1,0 +1,20 @@
+{
+  "vendor": {
+    "name": "poeditor",
+    "credentials": {
+      "token": "22119b760fdccdc70554488f26dc8107"
+    },
+    "options": {
+      "project": "585721",
+      "sourceLanguage": "en"
+    }
+  },
+  "extract": {
+    "source": "./src/**/**.tsx",
+    "funcArgumentsMap": {
+      "i18n": ["msgid"]
+    }
+  },
+  "output": "./src/i18n/translations/locales.json",
+  "verbose": true
+}

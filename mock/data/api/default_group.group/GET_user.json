@@ -1,0 +1,13 @@
+{
+  "protocol": "http",
+  "pathname": "user",
+  "method": "GET",
+  "projectUniqId": "cab0dbc8-a9ac-4aad-8df4-343ab4a070cd",
+  "description": "test",
+  "currentScene": "成功",
+  "proxyConfig": {
+    "enabled": false
+  },
+  "uniqId": "41d53321-5820-4551-8e8e-d690fdd22887",
+  "groupUniqId": "73d385ab-4a2d-4c7b-b274-b8032a71fd89"
+}
