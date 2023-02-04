@@ -3,6 +3,8 @@ includes i18n, mock, unitest and other useful tools to improve the engineering e
 ## Start
 ```js
 npm install uirecorder mocha macaca-reporter -g
+npm install selenium-standalone --save-dev
+npx selenium-standalone install && npx selenium-standalone start
 npm i
 npm run dev
 ```
@@ -14,5 +16,6 @@ npm run narp-push # extract i18n key and upload to poeditor
 ```  
 
 ## uirecorder
+https://github.com/webdriverio/selenium-standalone      
 https://github.com/alibaba/uirecorder/blob/master/README_zh-cn.md       
 https://github.com/macacajs/awesome-macaca#page-uitest
