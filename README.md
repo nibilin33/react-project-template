@@ -19,3 +19,6 @@ npm run narp-push # extract i18n key and upload to poeditor
 https://github.com/webdriverio/selenium-standalone      
 https://github.com/alibaba/uirecorder/blob/master/README_zh-cn.md       
 https://github.com/macacajs/awesome-macaca#page-uitest
+
+## pipeline
+[github comment](https://docs.github.com/en/rest/commits/comments?apiVersion=2022-11-28#create-a-commit-comment)        
