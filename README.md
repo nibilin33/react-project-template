@@ -27,4 +27,4 @@ https://github.com/macacajs/awesome-macaca#page-uitest
 ```shell
 npm install --save @sentry/react @sentry/tracing
 ```
-[sentry login](https://sentry.io/welcome/?utm_source=google&utm_medium=cpc&utm_campaign=9575834316&utm_content=g&utm_term=sentry&device=c&gclid=CjwKCAiA0JKfBhBIEiwAPhZXDzegUcSMCbMa2tfGTgwL-j9xoa7XS1QR_BlLtMuNjs9DvDRq8kaaZxoCQ2sQAvD_BwE&gclid=CjwKCAiA0JKfBhBIEiwAPhZXDzegUcSMCbMa2tfGTgwL-j9xoa7XS1QR_BlLtMuNjs9DvDRq8kaaZxoCQ2sQAvD_BwE)      
+[project sentry](https://nibilin33.sentry.io/projects/react-project-template/?project=4504650564108288)      
