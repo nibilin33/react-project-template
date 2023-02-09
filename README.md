@@ -1,5 +1,5 @@
 # react-project-template
-includes i18n, mock, unitest and other useful tools to improve the engineering effectiveness
+includes i18n, mock, monitor, unitest and other useful tools to improve the engineering effectiveness
 ## Start
 ```js
 npm install uirecorder mocha macaca-reporter -g
@@ -22,3 +22,9 @@ https://github.com/macacajs/awesome-macaca#page-uitest
 
 ## pipeline
 [github comment](https://docs.github.com/en/rest/commits/comments?apiVersion=2022-11-28#create-a-commit-comment)        
+
+## sentry
+```shell
+npm install --save @sentry/react @sentry/tracing
+```
+[sentry login](https://sentry.io/welcome/?utm_source=google&utm_medium=cpc&utm_campaign=9575834316&utm_content=g&utm_term=sentry&device=c&gclid=CjwKCAiA0JKfBhBIEiwAPhZXDzegUcSMCbMa2tfGTgwL-j9xoa7XS1QR_BlLtMuNjs9DvDRq8kaaZxoCQ2sQAvD_BwE&gclid=CjwKCAiA0JKfBhBIEiwAPhZXDzegUcSMCbMa2tfGTgwL-j9xoa7XS1QR_BlLtMuNjs9DvDRq8kaaZxoCQ2sQAvD_BwE)      

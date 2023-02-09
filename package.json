@@ -19,10 +19,15 @@
   "capabilities": {
     "browserName": "chrome",
     "goog:chromeOptions": {
-      "args": ["--no-sandbox", "--headless"]
+      "args": [
+        "--no-sandbox",
+        "--headless"
+      ]
     }
   },
   "dependencies": {
+    "@sentry/react": "^7.36.0",
+    "@sentry/tracing": "^7.36.0",
     "axios": "^1.2.1",
     "chai": "3.5.0",
     "jquery": "3.x",
