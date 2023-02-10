@@ -27,4 +27,7 @@ https://github.com/macacajs/awesome-macaca#page-uitest
 ```shell
 npm install --save @sentry/react @sentry/tracing
 ```
-[project sentry](https://nibilin33.sentry.io/projects/react-project-template/?project=4504650564108288)      
+[project sentry](https://nibilin33.sentry.io/projects/react-project-template/?project=4504650564108288)  
+
+## web log
+using [idb-managed](https://github.com/sylvia1106/idb-managed) to write log     

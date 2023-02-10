@@ -30,6 +30,7 @@
     "@sentry/tracing": "^7.36.0",
     "axios": "^1.2.1",
     "chai": "3.5.0",
+    "idb-managed": "^1.1.4",
     "jquery": "3.x",
     "jwebdriver": "2.3.4",
     "macaca-mocha-parallel-tests": "2.x",
