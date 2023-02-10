@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import {i18n,i18nConfig} from './i18n/index';
+import React from 'react';
 function App() {
   const [data,setData] = useState({});
-  fetch('/api/user').then(async (res)=>{
-    const result = await res.json();
-    setData(result);
-  });
+  useEffect(()=>{
+    fetch('/api/user').then(async (res)=>{
+      const result = await res.json();
+      setData(result);
+    });
+  },[]);
   return (
     <div className="App">
       <button onClick={()=>{
