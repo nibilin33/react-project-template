@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import {i18n,i18nConfig} from './i18n/index';
 import React from 'react';
-function App() {
+function useList() {
   const [data,setData] = useState({});
   useEffect(()=>{
     fetch('/api/user').then(async (res)=>{
@@ -10,6 +10,12 @@ function App() {
       setData(result);
     });
   },[]);
+  return {
+    data
+  }
+}
+function App() {
+  const {data}= useList();
   return (
     <div className="App">
       <button onClick={()=>{
