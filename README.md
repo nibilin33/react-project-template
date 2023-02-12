@@ -29,5 +29,7 @@ npm install --save @sentry/react @sentry/tracing
 ```
 [project sentry](https://nibilin33.sentry.io/projects/react-project-template/?project=4504650564108288)  
 
+## performance data collection
+[web-vitals](https://github.com/GoogleChrome/web-vitals)        
 ## web log
 using [idb-managed](https://github.com/sylvia1106/idb-managed) to write log     
