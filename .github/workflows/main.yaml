@@ -1,4 +1,4 @@
-name: CML & DVC
+name: Visualize
 on: [push]
 jobs:
   train-and-report:
